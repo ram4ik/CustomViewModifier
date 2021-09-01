@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		959ABD5E26DFFF4100F1D4C4 /* CustomViewModifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959ABD5D26DFFF4100F1D4C4 /* CustomViewModifierApp.swift */; };
-		959ABD6026DFFF4100F1D4C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959ABD5F26DFFF4100F1D4C4 /* ContentView.swift */; };
 		959ABD6226DFFF4200F1D4C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959ABD6126DFFF4200F1D4C4 /* Assets.xcassets */; };
 		959ABD6526DFFF4200F1D4C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959ABD6426DFFF4200F1D4C4 /* Preview Assets.xcassets */; };
+		959ABD6D26DFFF7300F1D4C4 /* AppViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959ABD6C26DFFF7300F1D4C4 /* AppViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		959ABD5A26DFFF4100F1D4C4 /* CustomViewModifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomViewModifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		959ABD5D26DFFF4100F1D4C4 /* CustomViewModifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifierApp.swift; sourceTree = "<group>"; };
-		959ABD5F26DFFF4100F1D4C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		959ABD6126DFFF4200F1D4C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		959ABD6426DFFF4200F1D4C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		959ABD6626DFFF4200F1D4C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959ABD6C26DFFF7300F1D4C4 /* AppViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				959ABD5D26DFFF4100F1D4C4 /* CustomViewModifierApp.swift */,
-				959ABD5F26DFFF4100F1D4C4 /* ContentView.swift */,
+				959ABD6C26DFFF7300F1D4C4 /* AppViewModifier.swift */,
 				959ABD6126DFFF4200F1D4C4 /* Assets.xcassets */,
 				959ABD6626DFFF4200F1D4C4 /* Info.plist */,
 				959ABD6326DFFF4200F1D4C4 /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				959ABD6026DFFF4100F1D4C4 /* ContentView.swift in Sources */,
+				959ABD6D26DFFF7300F1D4C4 /* AppViewModifier.swift in Sources */,
 				959ABD5E26DFFF4100F1D4C4 /* CustomViewModifierApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
